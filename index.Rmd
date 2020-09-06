@@ -30,7 +30,7 @@ knitr::include_graphics("fig/create_link.gif")
 
 # Customize the autocorrect options
 
-Autocorrect options can be a nightmare for linguists, and whenever I have to install a new version of Office, the first thing I do is turning most of them off. (I did my PhD on morphology, and affixes look really ugly when hyphens are replaced with dashes - cf. *‑able* vs. *–able*; most people probably won't notice the differences, but morphologists will...). 
+Autocorrect options can be a nightmare for linguists, and whenever I have to install a new version of Office, the first thing I do is turning most of them off. (I did my PhD on morphology, and affixes look really ugly when hyphens are replaced with dashes -- cf. *‑able* vs. *–able*; most people probably won't notice the difference, but morphologists will...). 
 
 In Googledocs, I've also turned most autocorrect options off, but I'm also trying to use them to my advantage. While you can't define custom keyboard shortcuts as you can e.g. in Word, you can define custom letter combinations that get replaced with whatever target string you define. For example, to easily type dashes, I let Googledocs replace two hyphens with a dash:  \-\- becomes –. And since I've started working on language acquisition, I'm citing Ewa Dąbrowska so often that it's become a bit tedious to add the funny diacritic manually each time, or to copy&paste the name from somewhere else -- so I just added Dabrowska > Dąbrowska to my list of custom substitutions, as shown in Fig. \@ref(fig:replacetool).
 
@@ -74,7 +74,7 @@ knitr::include_graphics("fig/zotero_integration.gif")
 
 ```
 
-This turned out to be particularly helpful for papers that require citation styles that work with citation numbers rather than e.g. Author-Year - for obvious reasons, that's almost impossible to write efficiently without a reference manager.
+This turned out to be particularly helpful for papers that require citation styles that work with citation numbers rather than e.g. Author-Year -- for obvious reasons, that's almost impossible to write efficiently without a reference manager.
 
 
 ```{r ccbysa, echo = FALSE, fig.align = 'center', out.width = '20%', out.height = '20%'}
@@ -84,4 +84,7 @@ knitr::include_graphics("fig/by-sa.png")
 
 <!--chapter:end:/Users/stefanhartmann/sciebo/Tutorials/googledocs/index.Rmd-->
 
+
+
+<!--chapter:end:/Users/stefanhartmann/sciebo/Tutorials/googledocs/index.Rmd-->
 
