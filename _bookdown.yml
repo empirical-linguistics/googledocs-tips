@@ -1,0 +1,9 @@
+book_filename: "index"
+language:
+  label:
+    fig: 'Fig. '
+    tab: 'Tab. '
+delete_merged_file: true
+new_session: true
+output_dir: "docs"
+rmd_files: "/Users/stefanhartmann/sciebo/Tutorials/googledocs/index.Rmd"
