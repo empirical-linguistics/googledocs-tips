@@ -53,7 +53,7 @@ knitr::include_graphics("fig/replace_in_action.gif")
 
 # Zotero integration
 
-One of the most convenient features that I've only discovered recently is the possibility to integrate Zotero, an open-source, cross-platform reference manager. And after writing an entire multi-author paper using this integration, I can confirm that it works well even in collaborative situations. In this case, however, all collaborators need to have Google accounts, which can be linked up to Zotero via the Zotero Connector plugin - see [https://www.zotero.org/support/google_docs](here) for details.
+One of the most convenient features that I've only discovered recently is the possibility to integrate Zotero, an open-source, cross-platform reference manager. And after writing an entire multi-author paper using this integration, I can confirm that it works well even in collaborative situations. In this case, however, all collaborators need to have Google accounts, which can be linked up to Zotero via the Zotero Connector plugin - see [here](https://www.zotero.org/support/google_docs) for details.
 
 If you collaborate on a document using the Zotero plugin, you should create a shared Zotero library (and make sure that you only cite works from libraries that are shared between the collaborators). As shown below, you can simply select a reference...
 
@@ -84,6 +84,9 @@ knitr::include_graphics("fig/by-sa.png")
 
 <!--chapter:end:/Users/stefanhartmann/sciebo/Tutorials/googledocs/index.Rmd-->
 
+
+
+<!--chapter:end:/Users/stefanhartmann/sciebo/Tutorials/googledocs/index.Rmd-->
 
 
 <!--chapter:end:/Users/stefanhartmann/sciebo/Tutorials/googledocs/index.Rmd-->
