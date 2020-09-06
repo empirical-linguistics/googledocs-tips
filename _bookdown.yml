@@ -3,7 +3,7 @@ language:
   label:
     fig: 'Fig. '
     tab: 'Tab. '
-delete_merged_file: true
+delete_merged_file: false
 new_session: true
 output_dir: "docs"
 rmd_files: "/Users/stefanhartmann/sciebo/Tutorials/googledocs/index.Rmd"

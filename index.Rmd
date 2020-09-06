@@ -32,13 +32,21 @@ knitr::include_graphics("fig/create_link.gif")
 
 Autocorrect options can be a nightmare for linguists, and whenever I have to install a new version of Office, the first thing I do is turning most of them off. (I did my PhD on morphology, and affixes look really ugly when hyphens are replaced with dashes - cf. *‑able* vs. *–able*; most people probably won't notice the differences, but morphologists will...). 
 
-In Googledocs, I've also turned most autocorrect options off, but I'm also trying to use them to my advantage. While you can't define custom keyboard shortcuts as you can e.g. in Word, you can define custom letter combinations that get replaced with whatever target string you define. For example, to easily type dashes, I let Googledocs replace two hyphens with a dash:  \-\- becomes –. And since I've started working on language acquisition, I'm citing Ewa Dąbrowska so often that it's become a bit tedious to add the funny diacritic manually each time, or to copy&paste the name from somewhere else.
+In Googledocs, I've also turned most autocorrect options off, but I'm also trying to use them to my advantage. While you can't define custom keyboard shortcuts as you can e.g. in Word, you can define custom letter combinations that get replaced with whatever target string you define. For example, to easily type dashes, I let Googledocs replace two hyphens with a dash:  \-\- becomes –. And since I've started working on language acquisition, I'm citing Ewa Dąbrowska so often that it's become a bit tedious to add the funny diacritic manually each time, or to copy&paste the name from somewhere else -- so I just added Dabrowska > Dąbrowska to my list of custom substitutions, as shown in \@ref(fig:replacetool).
 
-The function is hidden in Tools > Preferences > Substitutions, as shown below.
+The function is hidden in Tools > Preferences > Substitutions:
 
-```{r replacetool, echo = FALSE, fig.cap="Creating a public link in a Googledoc."}
+```{r replacetool, echo = FALSE, fig.cap="Adding custom substitutions."}
 
 knitr::include_graphics("fig/replacetool.gif")
+
+```
+
+\@ref(fig:replaceinaction) shows the substitution tool in action -- as you can see, the source string is replaced by the target string, which is highlighted. If you press the back button immediately after the substitution, it will be undone and you'll keep the source string instead. This is important in cases in which I actually want to keep the source string, e.g. the two hyphens \-\-.
+
+```{r replaceinaction, echo = FALSE, fig.cap="Adding custom substitutions."}
+
+knitr::include_graphics("fig/replace_in_action.gif")
 
 ```
 
@@ -72,4 +80,7 @@ This turned out to be particularly helpful for papers that require citation styl
 ```{r ccbysa, echo = FALSE, fig.align = 'center', out.width = '20%', out.height = '20%'}
 knitr::include_graphics("fig/by-sa.png")
 ```
+
+
+<!--chapter:end:/Users/stefanhartmann/sciebo/Tutorials/googledocs/index.Rmd-->
 
